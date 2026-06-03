@@ -1,0 +1,48 @@
+{
+  "name": "sns-caption-generator",
+  "version": "1.0.0",
+  "description": "AI-powered SNS caption generator for TikTok, Instagram, and X. Generate engaging captions with hashtags in seconds.",
+  "main": "dist/index.js",
+  "bin": {
+    "sns-caption": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "sns",
+    "caption",
+    "tiktok",
+    "instagram",
+    "twitter",
+    "x",
+    "ai",
+    "marketing",
+    "social-media",
+    "hashtag",
+    "content-creation",
+    "openai",
+    "claude",
+    "anthropic"
+  ],
+  "author": "jeong",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.3.2",
+    "chalk": "^5.4.1",
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
